@@ -46,6 +46,9 @@ After completing this assignment, you be able to effectively use
 ## Normal Mode
 Create a contact form with the following fields: name, email, website and message. The form should also have a submit button. When the submit button is clicked (or the enter key is presses) it should validate all of the form fields and show *all* errors in the form data. Use CSS to style the form to be responsive. When you mouse over the submit button the background color should fade to a green color (#88C470) over the course of 0.5 seconds.
 
+### Resources
+* [Background Image](/bg.jpg)
+
 ### Errors
 * Name cannot be left empty
 * Email cannot be left empty
