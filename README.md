@@ -68,7 +68,12 @@ Use $scope.$watch to validate the form as a user is typing in content. The form 
 
 
 ## Notes
-Hints: You'll want to use a series of models (bound to your input elements with ng-model) to keep track of all of the input data. Check out the css transition property for the submit button fading. You'll want to use a sinilar technique that you did with your tabbed interface to switch the page after the form is successfully submitted.
+Hints:
+* You'll want to use a series of models (bound to your input elements with ng-model) to keep track of all of the input data.
+* You can use .indexOf(...) to check to see if a character appears within a string. Google it.
+* You can use .substring(...) to look at a specific subsection of a string. This is useful for validating that the website starts with http://.
+* Check out the css transition property for the submit button fading.
+* You'll want to use a similar technique that you did with your [tabs assignment](https://github.com/TIY-Austin-Front-End-Engineering/angular-tabs) to switch the page after the form is successfully submitted.
 
 <!-- ## Additional Resources
 
